@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image:linear-gradient(to right,rgb(99, 99, 247, 0.7), rgb(242, 202, 127, 0.9),rgb(251, 248, 248, 0.9));
+    height:100vh;
+    width:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+    margin-top:30px;
+}
+
+#count{
+    font-size: 50px; 
+    margin-top:35px;
+}
