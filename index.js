@@ -67,3 +67,7 @@ function save(){
 }
 
 save()
+
+let message = "You have a tree new notifiations"
+
+console.log(message)
