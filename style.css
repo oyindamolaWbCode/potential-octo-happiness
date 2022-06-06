@@ -22,16 +22,25 @@ h1{
 }
 
 #increment-btn{
-    width:200px;
-    height:70px;
-    background-color: red;
+    padding:22px 65px; 
+    background-color: rgb(239, 87, 87);
     color:white;
     border-radius: 8px;
     border: 1px solid burlywood;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 30px;
+    font-weight: bold;
     margin-top: 30px;
+}
+
+.btn-two{
+    margin-top:20px
+}
+
+#save-btn{
+    padding:20px 60px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    font-weight: bold;
+    border:1px solid greenyellow;
 }
 
 p{
