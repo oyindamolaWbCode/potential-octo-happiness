@@ -50,6 +50,17 @@
 
 // lapTime()
 
+// dates
+
+const dateToday = new Date();
+console.log(dateToday)
+
+const dateOld = new Date(1960, 9, 1);
+console.log(dateOld)
+
+const dateString = new Date('October 13, 2014 11:13:00');
+console.log(dateString)
+
 let countPsg = document.getElementById("count-el")
 console.log(countPsg)
 
