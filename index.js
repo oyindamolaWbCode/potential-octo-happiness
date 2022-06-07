@@ -50,16 +50,27 @@
 
 // lapTime()
 
+// else if (dateString != dateToday){
+//     console.log('Not Today')
+// }
 // dates
 
 const dateToday = new Date();
 console.log(dateToday)
 
-const dateOld = new Date(1960, 9, 1);
-console.log(dateOld)
+// const dateOld = new Date(1960, 9, 1);
+// console.log(dateOld)
 
-const dateString = new Date('October 13, 2014 11:13:00');
+const dateString = new Date('July 06, 2022 00:00:00');
 console.log(dateString)
+
+if (dateString === dateToday){
+    console.log('It is my birthday !')
+}else if (dateString != dateToday){
+    console.log('Not Today')
+}else{
+    console.log('we meuuve')
+}
 
 let countPsg = document.getElementById("count-el")
 console.log(countPsg)
