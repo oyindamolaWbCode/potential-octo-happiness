@@ -93,6 +93,11 @@ console.log(saveEl)
     count = 0
     }
 
+let saveSum = document.getElementById("save-sum")  
+console.log(saveSum)  
+
+console.log( + "save-el")
+
 let message = "You have a tree new notifiations"
 
 console.log(message)
