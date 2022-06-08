@@ -82,14 +82,25 @@ function increment() {
     countPsg.innerText = count  
 }
 
-function save(){
+let saveEl = document.getElementById("save-el")
+console.log(saveEl)
 
+    function save() {
+    let countStg = count + " - "
+    saveEl.innerText += countStg
     console.log(count)
-
-}
-
-save()
+    }
 
 let message = "You have a tree new notifiations"
 
 console.log(message)
+
+ let name = "Oyindamola"
+ let greeting = "Hi, my name is "
+
+ let myGreeting = greeting + name
+
+ console.log(myGreeting)
+
+ alert (myGreeting)
+

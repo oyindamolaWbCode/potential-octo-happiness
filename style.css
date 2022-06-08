@@ -43,11 +43,20 @@ h1{
     border:1px solid greenyellow;
 }
 
-p{
+h6{
     animation-name: slide-in;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 
+}
+
+#save-el{
+    margin-top:20px;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
 }
 
 @keyframes slide-in{
