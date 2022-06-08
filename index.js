@@ -48,6 +48,7 @@
 //     console.log(totalLapTime)
 // }
 
+//adding the textContent is to give space to each dash
 // lapTime()
 
 // else if (dateString != dateToday){
@@ -87,8 +88,9 @@ console.log(saveEl)
 
     function save() {
     let countStg = count + " - "
-    saveEl.innerText += countStg
-    console.log(count)
+    saveEl.textContent += countStg
+    countPsg.innerText = 0
+    count = 0
     }
 
 let message = "You have a tree new notifiations"
