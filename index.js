@@ -109,5 +109,5 @@ console.log(message)
 
  console.log(myGreeting)
 
- alert (myGreeting)
+ alert(myGreeting)
 
