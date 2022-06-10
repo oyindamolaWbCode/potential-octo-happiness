@@ -59,15 +59,15 @@
 const dateToday = new Date();
 console.log(dateToday)
 
-// const dateOld = new Date(1960, 9, 1);
-// console.log(dateOld)
+const dateOld = new Date(1960, 9, 1);
+console.log(dateOld)
 
 const dateString = new Date('July 06, 2022 00:00:00');
 console.log(dateString)
 
 if (dateString === dateToday){
     console.log('It is my birthday !')
-}else if (dateString != dateToday){
+}else if (dateString === dateOld){
     console.log('Not Today')
 }else{
     console.log('we meuuve')
@@ -110,4 +110,7 @@ console.log(message)
  console.log(myGreeting)
 
  alert(myGreeting)
+
+
+ // While loops
 
