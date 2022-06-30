@@ -112,5 +112,5 @@ console.log(message)
  alert(myGreeting)
 
 
- // While loops
+ // More On Functions
 
