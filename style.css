@@ -4,12 +4,13 @@
 }
 
 body{
-    background-image:url('subway.jpg');
-    opacity:0.9;
+   
+    opacity:0.7;
     background-size:cover;
     background-position: center;
     height:100vh;
     width:100%;
+    margin:auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -17,6 +18,7 @@ body{
 h1{
     font-size: 45px;
     margin-top:30px;
+   
 }
 
 #count-el{
@@ -56,6 +58,7 @@ h6{
 #save-el{
     margin-top:20px;
     font-weight: bold;
+ 
 }
 
 p{
