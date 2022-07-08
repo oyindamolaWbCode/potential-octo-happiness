@@ -138,18 +138,44 @@ function remainder(num1, num2){
 }
 remainder(180, 70);
 
+// concatenate two more than two strings
+let oruko = " Nkechi"
+let ikini = "Bawo ni"
+
+function greetNke(){
+    console.log(ikini + "," + oruko + " " + "!");
+}
+
+greetNke()
+
+//Increment and decrement
+let myPoint = 3;
+
+function add3Point(){
+    for(let i = 0; i < 3; i ++){
+        myPoint = myPoint + i
+    }
+    console.log(myPoint);
+}
+
+
+
 // Example
-function favFood(response){
-    alert(`Your Fav food is ${response}`)
-}
+//  let food = prompt("Your Fav food is... ?")
 
-favFood()
+// function favFood(food){
 
-if (alert != favFood()){
-    alert("Please input your fav food...")
-}else{
-    console.log("Thank you !")
-}
+//    while(food === undefined){
+//     prompt("Please input your fav food...")
+// }if(food === prompt){
+//     alert("Thank you !")
+// }
+
+// }
+
+// favFood()
+
+
 // More On Functions
 
 //  const  {sumOfNumbers}  = assignment;
@@ -191,44 +217,3 @@ if (alert != favFood()){
 //  });
 //  console.log(maybe);
 
-const assignment = require('../src/assignment.js');
-
-const { countEvenNumbers } = assignment;
-const maybe = countEvenNumbers === undefined ? test.skip : test;
-
-maybe('Challenge - 2 : my countEvenNumbers function can count even numbers in array of numbers', () => {
-
-    let countEvenNumbers = 0;
-
-    const number = [
-        17,
-        0,
-        67,
-        41,
-        49,
-        21,
-        1,
-        86,
-        76,
-        2,
-        54,
-        14,
-        93,
-        84,
-        14,
-        77,
-        35,
-        7,
-        29,
-        64
-    ]
-    const even = [];
-
-    number.forEach(numbers => {
-      if (numbers % 2 === 0) {
-        even.push(number);
-      }
-    });
-    console.log(even);
-   // expect(countEvenNumbers(numbers)).toBe(9);
-});
