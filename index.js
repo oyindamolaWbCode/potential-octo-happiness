@@ -217,3 +217,33 @@ function add3Point(){
 //  });
 //  console.log(maybe);
 
+let cars = {
+   first : "prada",
+   sec : "honda",
+   third :  "benz",
+   forth :  "highlander"
+};
+
+const arrY = []
+arrY[0] = cars;
+arrY[1] = Date.now;
+
+console.log(arrY);
+
+let fruitArr = document.querySelector("#text");
+
+const fruits = ["Banana", "Guava", "Mango", "Apple", "Orange", "Cucumber", "Pineapple", "watermelon"];
+
+fruits.push('Lemonade', 'Greenpeas', 'Millet'); 
+fruits.pop(fruits[3]);
+
+let fL = fruits.length;
+
+let text = "<ul>";
+
+for(let i = 0; i < fL; i++){
+    text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+document.querySelector("#text").innerHTML = text;
