@@ -226,7 +226,7 @@ let cars = {
 
 const arrY = []
 arrY[0] = cars;
-arrY[1] = Date.now;
+arrY[1] = new Date();
 
 console.log(arrY);
 
@@ -247,3 +247,56 @@ for(let i = 0; i < fL; i++){
 text += "</ul>";
 
 document.querySelector("#text").innerHTML = text;
+
+//conditional statement
+//&& - both conditionals must be true (AND)
+// || - one or both of the conditional must br true {OR}
+
+// getting month in an array
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+const d = new Date();
+let month = months[d.getMonth()];
+
+console.log(month);
+
+let randomNumber = Math.random()
+console.log(randomNumber);
+
+function rollDice(){
+    let randmNumber = Math.floor(Math.random() * 6) + 1
+    return randmNumber
+}
+console.log(rollDice());
+
+//this statement
+//this keyword refers to an object.
+
+function myFunction() {
+    return this;
+  }
+
+  myFunction()
+
+//   this in Event Handlers
+//In HTML event handlers, this refers to the HTML element that received the even
+
+console.log(this);
+
+// JSON is a format for storing and transporting data.
+
+//JSON is often used when data is sent from a server to a web page.
+
+//Prototype
+function person(fName, lName){
+    this.firstName = fName
+    this.lastName = lName
+}
+const person1 = new person('Bruce', 'Wnayne')
+const person2 = new person('Brucly', 'Wayne')
+
+person1.getFullName = function(){
+    return this.firstName + ' ' + this.lastName
+}
+
+console.log(person1, getFullName())
